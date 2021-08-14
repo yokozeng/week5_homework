@@ -27,7 +27,6 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-gray-100: #f8f9fa;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
@@ -3564,47 +3563,6 @@ fieldset:disabled .btn {
   border-color: #212529;
 }
 
-.btn-gray-100 {
-  color: #000;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
-}
-
-.btn-gray-100:hover {
-  color: #000;
-  background-color: #f9fafb;
-  border-color: #f9fafb;
-}
-
-.btn-check:focus + .btn-gray-100, .btn-gray-100:focus {
-  color: #000;
-  background-color: #f9fafb;
-  border-color: #f9fafb;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(211, 212, 213, 0.5);
-          box-shadow: 0 0 0 0.25rem rgba(211, 212, 213, 0.5);
-}
-
-.btn-check:checked + .btn-gray-100,
-.btn-check:active + .btn-gray-100, .btn-gray-100:active, .btn-gray-100.active,
-.show > .btn-gray-100.dropdown-toggle {
-  color: #000;
-  background-color: #f9fafb;
-  border-color: #f9fafb;
-}
-
-.btn-check:checked + .btn-gray-100:focus,
-.btn-check:active + .btn-gray-100:focus, .btn-gray-100:active:focus, .btn-gray-100.active:focus,
-.show > .btn-gray-100.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(211, 212, 213, 0.5);
-          box-shadow: 0 0 0 0.25rem rgba(211, 212, 213, 0.5);
-}
-
-.btn-gray-100:disabled, .btn-gray-100.disabled {
-  color: #000;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
-}
-
 .btn-outline-primary {
   color: #198754;
   border-color: #198754;
@@ -3874,40 +3832,6 @@ fieldset:disabled .btn {
 
 .btn-outline-dark:disabled, .btn-outline-dark.disabled {
   color: #212529;
-  background-color: transparent;
-}
-
-.btn-outline-gray-100 {
-  color: #f8f9fa;
-  border-color: #f8f9fa;
-}
-
-.btn-outline-gray-100:hover {
-  color: #000;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
-}
-
-.btn-check:focus + .btn-outline-gray-100, .btn-outline-gray-100:focus {
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(248, 249, 250, 0.5);
-          box-shadow: 0 0 0 0.25rem rgba(248, 249, 250, 0.5);
-}
-
-.btn-check:checked + .btn-outline-gray-100,
-.btn-check:active + .btn-outline-gray-100, .btn-outline-gray-100:active, .btn-outline-gray-100.active, .btn-outline-gray-100.dropdown-toggle.show {
-  color: #000;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
-}
-
-.btn-check:checked + .btn-outline-gray-100:focus,
-.btn-check:active + .btn-outline-gray-100:focus, .btn-outline-gray-100:active:focus, .btn-outline-gray-100.active:focus, .btn-outline-gray-100.dropdown-toggle.show:focus {
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(248, 249, 250, 0.5);
-          box-shadow: 0 0 0 0.25rem rgba(248, 249, 250, 0.5);
-}
-
-.btn-outline-gray-100:disabled, .btn-outline-gray-100.disabled {
-  color: #f8f9fa;
   background-color: transparent;
 }
 
@@ -5578,16 +5502,6 @@ fieldset:disabled .btn {
   color: #101214;
 }
 
-.alert-gray-100 {
-  color: #636464;
-  background-color: #fefefe;
-  border-color: #fdfdfe;
-}
-
-.alert-gray-100 .alert-link {
-  color: #4f5050;
-}
-
 @-webkit-keyframes progress-bar-stripes {
   0% {
     background-position-x: 1rem;
@@ -6050,22 +5964,6 @@ fieldset:disabled .btn {
   color: #fff;
   background-color: #141619;
   border-color: #141619;
-}
-
-.list-group-item-gray-100 {
-  color: #636464;
-  background-color: #fefefe;
-}
-
-.list-group-item-gray-100.list-group-item-action:hover, .list-group-item-gray-100.list-group-item-action:focus {
-  color: #636464;
-  background-color: #e5e5e5;
-}
-
-.list-group-item-gray-100.list-group-item-action.active {
-  color: #fff;
-  background-color: #636464;
-  border-color: #636464;
 }
 
 .btn-close {
@@ -7283,14 +7181,6 @@ fieldset:disabled .btn {
   color: #1a1e21;
 }
 
-.link-gray-100 {
-  color: #f8f9fa;
-}
-
-.link-gray-100:hover, .link-gray-100:focus {
-  color: #f9fafb;
-}
-
 .ratio {
   position: relative;
   width: 100%;
@@ -7697,10 +7587,6 @@ fieldset:disabled .btn {
 
 .border-dark {
   border-color: #212529 !important;
-}
-
-.border-gray-100 {
-  border-color: #f8f9fa !important;
 }
 
 .border-white {
@@ -8604,10 +8490,6 @@ fieldset:disabled .btn {
   color: #212529 !important;
 }
 
-.text-gray-100 {
-  color: #f8f9fa !important;
-}
-
 .text-white {
   color: #fff !important;
 }
@@ -8662,10 +8544,6 @@ fieldset:disabled .btn {
 
 .bg-dark {
   background-color: #212529 !important;
-}
-
-.bg-gray-100 {
-  background-color: #f8f9fa !important;
 }
 
 .bg-body {
@@ -11686,6 +11564,55 @@ fieldset:disabled .btn {
   }
 }
 
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato','Roboto Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ms-6 {
+  margin-left: 24px;
+}
+
+.m-8 {
+  margin: 32px;
+}
+
+.mt-8 {
+  margin-top: 32px;
+}
+
+.mb-8 {
+  margin-bottom: 32px;
+}
+
+.ms-8 {
+  margin-left: 32px;
+}
+
+.me-8 {
+  margin-right: 32px;
+}
+
+.ps-8 {
+  padding-left: 32px;
+}
+
+.pt-8 {
+  padding-top: 32px;
+}
+
+.pb-8 {
+  padding-bottom: 32px;
+}
+
 .nav {
   height: 100vh;
   width: 296px;
@@ -11814,55 +11741,6 @@ fieldset:disabled .btn {
 
 .modal .icons-warning {
   color: #DC3545;
-}
-
-*, *:before, *:after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  font-family: 'Lato','Roboto Mono', -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
-
-a {
-  text-decoration: none;
-}
-
-.ms-6 {
-  margin-left: 24px;
-}
-
-.m-8 {
-  margin: 32px;
-}
-
-.mt-8 {
-  margin-top: 32px;
-}
-
-.mb-8 {
-  margin-bottom: 32px;
-}
-
-.ms-8 {
-  margin-left: 32px;
-}
-
-.me-8 {
-  margin-right: 32px;
-}
-
-.ps-8 {
-  padding-left: 32px;
-}
-
-.pt-8 {
-  padding-top: 32px;
-}
-
-.pb-8 {
-  padding-bottom: 32px;
 }
 
 /*# sourceMappingURL=all.css.map */
